@@ -1,9 +1,9 @@
-## What is this repo?
+# What is this repo?
 This is a repo for a Telegram bot writen in python that uses aria2 to mirror files from the internet into Google Drive. This can be deployed onto a personal server using Docker or on Heroku.
 
 THIS REPO WAS CREATED BY https://github.com/lzzy12/ ALL CREDIT GOES TO THEM
 
-# Features supported:
+## Features supported:
 - Mirroring direct download links to Google Drive
 - Mirroring torrent magnet links to Google Drive
 - Mirroring downloads into a Team Drive
