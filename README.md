@@ -1,7 +1,5 @@
 # What is this repo?
-This is a repo for a Telegram bot writen in python that uses aria2 to mirror files from the internet into Google Drive. This can be deployed onto a personal server using Docker or on Heroku.
-
-THIS REPO WAS CREATED BY https://github.com/lzzy12/ ALL CREDIT GOES TO THEM
+This is a guide to create a Telegram bot that uses aria2 to mirror files from the internet or torrents into Google Drive. This can be deployed onto a personal server using Docker or on Heroku.
 
 ## Features supported:
 - Mirroring direct download links to Google Drive
@@ -16,9 +14,10 @@ THIS REPO WAS CREATED BY https://github.com/lzzy12/ ALL CREDIT GOES TO THEM
 - You will need to deploy this bot either on your own server using Docker or on Heroku using a free Heroku account
 - I do not reccomend using this bot on Telegram groups with large amounts of people as it will overload the bot
 - All of this tutorial will be done for Ubuntu systems
+- redit for all code goes to https://github.com/lzzy12/
 
 # Tutorial
-### Pre-Requirements
+### Prerequisites
 Before beginning on the Terminal you will need to run the following commands:
 ```
 sudo apt-get update
