@@ -11,11 +11,11 @@ THIS REPO WAS CREATED BY https://github.com/lzzy12/ ALL CREDIT GOES TO THEM
 - Index Link support
 
 ## Disclaimer
-This process wil take apporoximately 30 minutes to setup
-You will need a Linux terminal to set this up. Windows user can also complete this using something called WSL (research this)
-You will need to deploy this bot either on your own server using Docker or on Heroku using a free Heroku account
-I do not reccomend using this bot on Telegram groups with large amounts of people as it will overload the bot
-All of this tutorial will be done for Ubuntu systems
+- This process wil take apporoximately 30 minutes to setup
+- You will need a Linux terminal to set this up. Windows user can also complete this using something called WSL (research this)
+- You will need to deploy this bot either on your own server using Docker or on Heroku using a free Heroku account
+- I do not reccomend using this bot on Telegram groups with large amounts of people as it will overload the bot
+- All of this tutorial will be done for Ubuntu systems
 
 # Tutorial
 ### Pre-Requirements
