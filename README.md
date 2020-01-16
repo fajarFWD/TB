@@ -29,6 +29,8 @@ sudo apt install python-pip
 sudo apt install git-all
 curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
 ```
+This will take a long time esspecially if you are running Linux on WSL or you have slow internet
+
 Clone this repo:
 ```
 git clone https://github.com/eliasbenb/TorrentBot/
