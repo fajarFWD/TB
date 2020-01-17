@@ -1,7 +1,7 @@
 {
   "name": "TorrentBot",
   "description": "A barebones Node.js app using Express",
-  "repository": "https://github.com/eliasbenb/TorrentBot/",
-  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "repository": "https://github.com/eliasbenb/TorrentBot",
+  "logo": "https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/14-utorrent-512.png",
   "keywords": ["node", "express", "static"]
 }
