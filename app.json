@@ -1,0 +1,7 @@
+{
+  "name": "TorrentBot",
+  "description": "A barebones Node.js app using Express",
+  "repository": "https://github.com/eliasbenb/TorrentBot/",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["node", "express", "static"]
+}
