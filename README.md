@@ -23,6 +23,7 @@ Before beginning on the Terminal you will need to run the following commands:
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt install python3
+sudo apt install python3-pip
 sudo apt install npm
 sudo apt install snapd
 sudo apt install python-pip
@@ -74,7 +75,7 @@ Note: You can limit maximum concurrent downloads by changing the value of MAX_CO
 - Move that file to the root of TorrentBot, and rename it to credentials.json
 - Finally, run the script to generate token file (token.pickle) for Google Drive:
 ```
-pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
+pip3 install google-api-python-client google-auth-httplib2 google-auth-oauthlib
 python3 generate_drive_token.py
 ```
 Note: for WSL users this won't work. You have to upload the credentials.json file to a cloud storage and download the file on WSL using 
@@ -82,10 +83,6 @@ Note: for WSL users this won't work. You have to upload the credentials.json fil
 wget www.insertlinkhere.com/downloadlink/credentials.json
 ```
 ### Deploying on Heroku
-- Run the script to generate token file(token.pickle) for Google Drive:
-```
-python3 generate_drive_token.py
-```
 - Login into your heroku account with command:
 ```
 heroku login
@@ -119,7 +116,7 @@ git push heroku master --force
 heroku ps:scale worker=0
 ```
 ```
-heroku ps:scale worker=1	 	
+heroku ps:scale worker=1
 ```
 Heroku-Note: Doing authorizations ( /authorize command ) through telegram wont be permanent as heroku uses ephemeral filesystem. They will be reset on each dyno boot. As a workaround you can:
 - Make a file authorized_chats.txt and write the user names and chat_id of you want to authorize, each separated by new line
